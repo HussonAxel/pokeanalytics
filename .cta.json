@@ -1,0 +1,21 @@
+{
+  "projectName": "pokeanalytics",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "pnpm",
+  "addOnOptions": {},
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "eslint",
+    "db",
+    "form",
+    "shadcn",
+    "table",
+    "store",
+    "tanstack-query",
+    "start"
+  ]
+}
