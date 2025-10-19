@@ -46,8 +46,8 @@ function RouteComponent() {
             <img
               src={
                 showShiny
-                  ? `/public/sprites/shiny/${extractPokemonIdFromUrl(pokemon.url)}.webp`
-                  : `/public/sprites/base/${extractPokemonIdFromUrl(pokemon.url)}.webp`
+                  ? `/sprites/shiny/${extractPokemonIdFromUrl(pokemon.url)}.webp`
+                  : `/sprites/base/${extractPokemonIdFromUrl(pokemon.url)}.webp`
               }
               alt={pokemon.name}
               className="max-w-1/2 w-48 m-auto"
