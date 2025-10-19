@@ -32,6 +32,7 @@ export default function GridHeaderMenu({}: gridHeaderMenuProps) {
             params={{
               generation: allRegions.slug,
             }}
+            search={{ showShiny: false }}
             onMouseEnter={prefetchAllPokemons}
           >
             <div className="border-[0.5px] border-black rounded-[20px] h-full p-6 transition-colors duration-500 ease-in-out hover:bg-[#ef4036] hover:text-white flex flex-col hover:cursor-pointer">
@@ -60,6 +61,7 @@ export default function GridHeaderMenu({}: gridHeaderMenuProps) {
                 params={{
                   generation: gen.slug,
                 }}
+                search={{ showShiny: false }}
                 onMouseEnter={prefetchFunctions[index]}
               >
                 <div className="border-[0.5px] border-black rounded-[20px] p-6 transition-colors duration-500 ease-in-out hover:bg-[#ef4036] hover:text-white hover:cursor-pointer flex flex-col h-80">
